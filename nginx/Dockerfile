@@ -1,4 +1,4 @@
-FROM nginx:1.24-alpine
+FROM nginx:1.31-alpine
 #FROM public.ecr.aws/nginx/nginx:1.24-alpine
 
 # Instalar OpenSSH
