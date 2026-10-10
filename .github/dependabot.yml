@@ -1,0 +1,16 @@
+# Generado automáticamente: una PR por dependencia (sin agrupar).
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directories:
+      - "/jenkins-agent"
+      - "/jenkins-master"
+      - "/nginx"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "docker-compose"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
